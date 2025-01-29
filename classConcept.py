@@ -11,8 +11,12 @@ class Car:
     def stop(self):
         print(f"{self.model} has stopped")
 
+# creating instance
 car1 = Car("Toyota", "Corolla", 2015)
+car2 = Car("Honda", "Civic", 2016)
+car3 = Car("BMW", "X5", 2017)
 
 car1.display()
 car1.start()
 car1.stop()
+
